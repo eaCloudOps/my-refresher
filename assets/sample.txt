@@ -2,19 +2,28 @@ Hello there!
 
 > download Git
 > run cmd/powershell
+
     > go to file directory
     > type: ` git init `
     > setup author info
     > try: ` git help for commands `
+
 > sign in to your github account
+
     > create new repository
     > copy https clone link
+
 > go back to your cmd/powershell
+
     > git remote add <name of connection> <git hub https clone link>
     > to check if connection is successful try: git remote -v (` -v ` means verbose more details much better)
+
         > to remove remote connection try: git remote remove <name of connection>
+
     > before pushing commits run: ` git config --global credential.username "<github username>" `
     > windows will bring a prompt to sign in to your github... go sign in.
+    
         > IF you want to retrieve a repository try: ` git pull <name of connection> <branch you want to fetch> `
         > FOR upadating the repository try: ` git push <name of connection> <branch you want to update> `
+
 [-- FOR REFRESHER --] ` Git and GitHub - 0 Experience to Professional in 1 Tutorial(Part 1&2) ` YT: SuperSimpleDev
